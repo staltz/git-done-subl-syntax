@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>TODO</string>
+	</array>
+	<key>name</key>
+	<string>TODO</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>^\s*\-</string>
+			<key>name</key>
+			<string>markup.deleted.diff</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\bTODO\b</string>
+			<key>name</key>
+			<string>markup.deleted.diff</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>^\s*\+</string>
+			<key>name</key>
+			<string>markup.inserted.diff</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\bDONE\b</string>
+			<key>name</key>
+			<string>markup.inserted.diff</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\#\#.*$</string>
+			<key>name</key>
+			<string>comment</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>^\s*\&gt;\&gt;\&gt;.*$</string>
+			<key>name</key>
+			<string>constant.language.todo.tag</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>TODO</string>
+	<key>uuid</key>
+	<string>8728e0fe-14c6-4374-acde-da1857d0a378</string>
+</dict>
+</plist>
